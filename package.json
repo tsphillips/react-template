@@ -6,6 +6,7 @@
   "private": false,
   "scripts": {
     "start": "npm run lite",
+    "lite": "lite-server",
     "build": "webpack --colors --progress"
   }
 }

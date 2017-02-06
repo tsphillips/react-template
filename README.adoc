@@ -6,6 +6,8 @@ Thomas Phillips <tom@tsphillips.net>
 I needed a ready-to-go template for building React web applications.
 I built this template to meet that need.
 
+React documentation: https://facebook.github.io/react/
+
 _Caveat utilitor_.
 
 == Requirements
@@ -16,7 +18,6 @@ Set up the development environment:
 # Assume node and npm are already installed.
 # Assume package.json exists.
 npm install babel babel-core babel-loader babel-preset-es2015 babel-preset-react webpack lite-server --save-dev
-npm install express bootstrap react --save
 mkdir -p public src/client src/server
 ```
 
@@ -27,12 +28,6 @@ npm:: Javascript package manager. (https://www.npmjs.com/)
 babel:: Used to transpile all Javascript code; compilation, linting, minification, codemods, code coverage, etc. (http://babeljs.io/)
 webpack:: Asset bundling. (https://webpack.js.org/)
 lite-server:: Basic web server with Browser Sync. (https://www.npmjs.com/package/lite-server)
-
-=== Core Functionality
-
-express:: Node web server. (https://www.npmjs.com/package/express)
-bootstrap:: HTML, CSS, and JS framework. (http://getbootstrap.com/)
-react:: A Javascript library for building user interfaces. (https://facebook.github.io/react/)
 
 == Directories
 
