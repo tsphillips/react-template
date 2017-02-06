@@ -1,0 +1,53 @@
+= React Template
+Thomas Phillips <tom@tsphillips.net>
+
+== About
+
+I needed a ready-to-go template for building React web applications.
+I built this template to meet that need.
+_Caveat utilitor_.
+
+== Requirements
+
+Set up the development environment:
+
+```
+# Assume node and npm are already installed.
+# Assume package.json exists.
+npm install babel babel-core babel-loader babel-preset-es2015 babel-preset-react webpack lite-server --save-dev
+npm install express bootstrap react --save
+mkdir -p public src/client src/server
+```
+
+=== Developmentment
+
+node:: Javascript runtime. (https://nodejs.org/en/)
+npm:: Javascript package manager. (https://www.npmjs.com/)
+babel:: Used to transpile all Javascript code; compilation, linting, minification, codemods, code coverage, etc. (http://babeljs.io/)
+webpack:: Asset bundling. (https://webpack.js.org/)
+lite-server:: Basic web server with Browser Sync. (https://www.npmjs.com/package/lite-server)
+
+=== Core Functionality
+
+express:: Node web server. (https://www.npmjs.com/package/express)
+bootstrap:: HTML, CSS, and JS framework. (http://getbootstrap.com/)
+react:: A Javascript library for building user interfaces. (https://facebook.github.io/react/)
+
+== Directories
+
+public/:: The public web server directory.
+server/:: The web application server.
+src/client/:: The web application client source code.
+src/server/:: The web application client stylesheets.
+
+== Files
+
+package.json:: Npm package description. (Manually set name, version, description, license, private, and scripts.)
+.babelrc:: Babel configuration. (Use presets es2015 and react.)
+webpack.config.js:: Webpack configuration.
+bs-config.js:: Browser Sync configuration for lite-server.
+
+== Targets
+
+public/bundle.js:: Transpiled and bundled web application client code.
+public/styles.css:: Bundled web application client CSS styles.

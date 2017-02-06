@@ -1,0 +1,11 @@
+{
+  "name": "React Template",
+  "version": "1.0.0",
+  "description": "Template for making web applications with React.",
+  "license": "SEE LICENSE IN LICENSE",
+  "private": false,
+  "scripts": {
+    "start": "npm run lite",
+    "build": "webpack --colors --progress"
+  }
+}

@@ -1,0 +1,5 @@
+= Server README
+
+Server files (e.g., *.js) go here.
+Server files are all put into server/server.js.
+
