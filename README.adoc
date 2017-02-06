@@ -5,6 +5,7 @@ Thomas Phillips <tom@tsphillips.net>
 
 I needed a ready-to-go template for building React web applications.
 I built this template to meet that need.
+
 _Caveat utilitor_.
 
 == Requirements
