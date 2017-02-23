@@ -19,7 +19,7 @@ Set up the development environment:
 # Assume node and npm are already installed.
 # Assume package.json exists.
 npm install babel babel-core babel-loader babel-preset-es2015 babel-preset-react webpack lite-server --save-dev
-mkdir -p public src/client src/server
+mkdir public src
 ```
 
 === Developmentment
@@ -34,8 +34,7 @@ lite-server:: Basic web server with Browser Sync. (https://www.npmjs.com/package
 
 public/:: The public web server directory.
 server/:: The web application server.
-src/client/:: The web application client source code.
-src/server/:: The web application client stylesheets.
+src/:: The web application client source code.
 
 == Files
 
