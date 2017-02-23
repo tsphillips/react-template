@@ -1,4 +1,4 @@
-= Client README
+= src README
 
 Client files (e.g., *.jmx) go here.
 Client files are all put into public/bundle.js.

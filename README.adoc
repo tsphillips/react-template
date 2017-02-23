@@ -5,6 +5,7 @@ Thomas Phillips <tom@tsphillips.net>
 
 I needed a ready-to-go template for building React web applications.
 I built this template to meet that need.
+Note that the Javascript ecosystem is quite chaotic; there is not necessarily a _right way_ to do anything.
 
 React documentation: https://facebook.github.io/react/
 
