@@ -11,7 +11,10 @@ React documentation: https://facebook.github.io/react/
 
 _Caveat utilitor_.
 
-Note: See this: http://jamesknelson.com/the-six-things-you-need-to-know-about-babel-6/
+Note:
+
+* http://jamesknelson.com/the-six-things-you-need-to-know-about-babel-6/
+* http://babeljs.io/env
 
 == Requirements
 
@@ -20,7 +23,7 @@ Set up the development environment:
 ```
 # Assume node and npm are already installed.
 # Assume package.json exists.
-npm install babel-cli babel-polyfill babel-core babel-loader babel-preset-es2015 babel-preset-react webpack lite-server --save-dev
+npm install babel-cli babel-polyfill babel-core babel-loader babel-preset-env babel-preset-react webpack lite-server --save-dev
 mkdir public src
 
 # Inside package.json...
